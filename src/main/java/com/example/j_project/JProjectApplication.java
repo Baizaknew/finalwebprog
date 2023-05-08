@@ -1,15 +1,36 @@
 package com.example.j_project;
 
+import com.example.j_project.models.Product;
+import com.example.j_project.repo.ProductRepo;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.Random;
+
 @SpringBootApplication
-public class JProjectApplication {
+public class JProjectApplication implements CommandLineRunner {
+	@Autowired
+	ProductRepo ob;
 
 	public static void main(String[] args) {
 		SpringApplication.run(JProjectApplication.class, args);
 	}
 
+	@Override
+	public void run(String... args) throws Exception {
+		for(int i = 0;i < 10;i++){
+			Random rand = new Random();
+
+			Product product = new Product();
+			product.setProductName("p"+i);
+			product.setData("data"+i);
+			product.setPrize("100"+i+ rand.nextInt());
+			ob.save(product);
+		}
+
+	}
 }
 /*
 server.port=5952

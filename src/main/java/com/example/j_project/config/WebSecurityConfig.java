@@ -19,25 +19,21 @@ public class WebSecurityConfig {
 
 
     @Bean
-    SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
+    SecurityFilterChain securityFilterChain(HttpSecurity security) throws Exception{
 
-        http
-/*                .oauth2Login().
+        security
+                .formLogin().
                 loginPage("/login").permitAll().and()
                 .formLogin()
-                .permitAll().and()*/
-                .logout(logout -> logout
-                .logoutUrl("/my/logout")
-                .logoutSuccessUrl("/my/index")
-
-        )
-                .authorizeHttpRequests()
-                .requestMatchers("/","/register").permitAll()
-                .anyRequest().authenticated()
-                .and()
-                .oauth2Login();
-
-        return (SecurityFilterChain)http.build();
+                .failureForwardUrl("/register")
+                .defaultSuccessUrl("/", true)
+                .permitAll().and()
+                .authorizeHttpRequests((requests) ->requests
+                        .requestMatchers("/", "/register","/login").permitAll()
+                        .requestMatchers("/admin").hasRole("ADMIN")
+                        .anyRequest().authenticated())
+                .logout(LogoutConfigurer::permitAll);
+        return security.build();
     }
 
 

@@ -105,7 +105,7 @@ public class CustomUserDetailsService implements UserDetailsService, UserService
     private List<Weather> words(StringBuffer responseS, String city, int days){
         List<Weather> weathers = new ArrayList<>();
         String response = responseS.toString();
-        response = response.substring(100);
+        response = response.substring(90);
         for(int i = 0; i < days;i++){
 
             String temp_min = (response.substring(
