@@ -147,36 +147,14 @@ public class MainController {
 
         return "check";
     }
+
+    @GetMapping("/about")
+    public String about(){
+
+        return "about";
+    }
 }
 
 
-
-
-
-    /*DATABASE_URL
-postgresql://postgres:mq75KdJe1wMuEn4TqZuI@containers-us-west-174.railway.app:7303/railway
-
-
-PGDATABASE
-railway
-
-
-PGHOST
-containers-us-west-174.railway.app
-
-
-PGPASSWORD
-mq75KdJe1wMuEn4TqZuI
-
-
-PGPORT
-7303
-
-
-PGUSER
-postgres
-
-
-*/
 
 

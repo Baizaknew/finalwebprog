@@ -29,7 +29,7 @@ public class WebSecurityConfig {
                 .defaultSuccessUrl("/", true)
                 .permitAll().and()
                 .authorizeHttpRequests((requests) ->requests
-                        .requestMatchers("/", "/register","/login").permitAll()
+                        .requestMatchers("/", "/register","/login", "/about").permitAll()
                         .requestMatchers("/admin").hasRole("ADMIN")
                         .anyRequest().authenticated())
                 .logout(LogoutConfigurer::permitAll);

@@ -28,7 +28,7 @@ public class JProjectApplication implements CommandLineRunner {
 			product.setData("data"+i);
 			product.setPrize("100"+i+ rand.nextInt());
 			ob.save(product);
-		}
+		};
 
 	}
 }
