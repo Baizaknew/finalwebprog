@@ -32,7 +32,8 @@ The application uses a database to store information about products, weathers, a
 The application is available at: https://finalwebprog-production.up.railway.app/
 
 ## Database schema (ERD image)
-//////////////////////////////
+![Screenshot_10](https://github.com/Baizaknew/finalwebprog/assets/102854080/d1b8701b-ed3a-4d76-bb31-dfd94713d5a4)
+![Screenshot_11](https://github.com/Baizaknew/finalwebprog/assets/102854080/8fc79ac4-fd54-4742-b61d-52904d939e85)
 
 ## Screenshots
 ![Screenshot_19](https://github.com/Baizaknew/finalwebprog/assets/102854080/3fff7b3c-c2de-4ed9-89af-bb5c299408fa)
