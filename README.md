@@ -48,6 +48,11 @@ The application is available at: https://finalwebprog-production.up.railway.app/
 ![Screenshot_9](https://github.com/Baizaknew/finalwebprog/assets/102854080/1a15f361-2466-4385-a80b-15f9170c5afe)
 ![photo_2023-05-11_17-13-08](https://github.com/Baizaknew/finalwebprog/assets/102854080/9ed625b6-a061-4838-b284-d72730d0fe8c)
 
+## Swagger
+http://localhost:8989/swagger-ui/index.html
+
+![Screenshot_12](https://github.com/Baizaknew/finalwebprog/assets/102854080/7e61d59d-c04e-4b14-b6bf-f853eb93fa57)
+
 ## Tutorial
 https://docs.google.com/document/d/1v8P5KvgYIpEdFlWRitL84CyvH5zwWBWW8btQ-tqhN54/edit?usp=sharing
 
