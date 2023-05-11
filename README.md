@@ -35,7 +35,17 @@ The application is available at: https://finalwebprog-production.up.railway.app/
 //////////////////////////////
 
 ## Screenshots
-////////////////////////////
+![Screenshot_19](https://github.com/Baizaknew/finalwebprog/assets/102854080/3fff7b3c-c2de-4ed9-89af-bb5c299408fa)
+![Screenshot_1](https://github.com/Baizaknew/finalwebprog/assets/102854080/5c56b2d0-c3aa-44c8-9cf6-9427f840b52d)
+![Screenshot_2](https://github.com/Baizaknew/finalwebprog/assets/102854080/93639a65-139a-4d92-8cd1-90a6b7bf19cd)
+![Screenshot_3](https://github.com/Baizaknew/finalwebprog/assets/102854080/235356a9-4f15-463c-9801-5c94a3625355)
+![Screenshot_4](https://github.com/Baizaknew/finalwebprog/assets/102854080/bbc81ad6-78fd-4635-8e25-1a9d6fd4f57f)
+![Screenshot_5](https://github.com/Baizaknew/finalwebprog/assets/102854080/64ce6711-ce76-4a95-a31d-f4f2669e3e49)
+![Screenshot_6](https://github.com/Baizaknew/finalwebprog/assets/102854080/cf4d2589-77d5-494e-b9ae-5fcc0c07d1c6)
+![Screenshot_7](https://github.com/Baizaknew/finalwebprog/assets/102854080/a38c9bec-c48a-4765-854d-93f6a1517c80)
+![Screenshot_8](https://github.com/Baizaknew/finalwebprog/assets/102854080/11e917d6-0073-4f23-a68f-55eb514bfed2)
+![Screenshot_9](https://github.com/Baizaknew/finalwebprog/assets/102854080/1a15f361-2466-4385-a80b-15f9170c5afe)
+![photo_2023-05-11_17-13-08](https://github.com/Baizaknew/finalwebprog/assets/102854080/9ed625b6-a061-4838-b284-d72730d0fe8c)
 
 ## Tutorial
 https://docs.google.com/document/d/1v8P5KvgYIpEdFlWRitL84CyvH5zwWBWW8btQ-tqhN54/edit?usp=sharing
