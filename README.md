@@ -9,7 +9,7 @@ PROD_DB_PASSWORD=7STveDeN1uNRON7gMn4Y
 ```
 # Final project for web programming on Spring(Java).
 
-### **Topic**: "An online store specializing in the sale of clothing and accessories that are most suitable for certain weather conditions."
+### **Topic**: "Online Store for Weather-Specific Clothing and Accessories"
 
 ## Description of the project
 This project is a web application based on Spring(Java). 
