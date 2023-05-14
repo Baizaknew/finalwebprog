@@ -9,7 +9,7 @@ PROD_DB_PASSWORD=7STveDeN1uNRON7gMn4Y
 ```
 # Final project for web programming on Spring(Java).
 
-### **Topic**: "An online store specializing in the sale of clothing and accessories that are most suitable for certain weather conditions."
+### **Topic**: "Online Store for Weather-Specific Clothing and Accessories"
 
 ## Description of the project
 This project is a web application based on Spring(Java). 
@@ -30,6 +30,8 @@ The application uses a database to store information about products, weathers, a
 ## Deploy on "Railway.app"
 
 The application is available at: https://finalwebprog-production.up.railway.app/
+![Screenshot_14](https://github.com/Baizaknew/finalwebprog/assets/102854080/2c361c89-93cf-493c-95b9-6f055046a48c)
+
 
 ## Database schema (ERD image)
 ![Screenshot_10](https://github.com/Baizaknew/finalwebprog/assets/102854080/d1b8701b-ed3a-4d76-bb31-dfd94713d5a4)
