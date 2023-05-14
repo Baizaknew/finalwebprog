@@ -1,15 +1,15 @@
 ```properties
 spring_profiles_active=prod
-PROD_DB_HOST=containers-us-west-169.railway.app
-PROD_DB_PORT=6934
+PROD_DB_HOST=containers-us-west-89.railway.app
+PROD_DB_PORT=7850
 PROD_DB_NAME=railway
 PROD_DB_USERNAME=postgres
-PROD_DB_PASSWORD=7STveDeN1uNRON7gMn4Y
+PROD_DB_PASSWORD=qjU75c5FYEDAs4v8a0RT
 
 ```
 # Final project for web programming on Spring(Java).
 
-### **Topic**: "Online Store for Weather-Specific Clothing and Accessories"
+### **Topic**: "An online store specializing in the sale of clothing and accessories that are most suitable for certain weather conditions."
 
 ## Description of the project
 This project is a web application based on Spring(Java). 
@@ -30,8 +30,8 @@ The application uses a database to store information about products, weathers, a
 ## Deploy on "Railway.app"
 
 The application is available at: https://finalwebprog-production.up.railway.app/
-![Screenshot_14](https://github.com/Baizaknew/finalwebprog/assets/102854080/2c361c89-93cf-493c-95b9-6f055046a48c)
 
+When you log in, if it didn't work the first time, try one more time.
 
 ## Database schema (ERD image)
 ![Screenshot_10](https://github.com/Baizaknew/finalwebprog/assets/102854080/d1b8701b-ed3a-4d76-bb31-dfd94713d5a4)
